@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pet Adoption Center</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">🐾 PetAdoption</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#pets">Pets</a></li>
+      <li><a href="#adoption-form">Adoption Form</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Find Your New Best Friend</h1>
+    <p>Give a loving home to a pet in need. Adopt today!</p>
+    <a href="#pets" class="btn">View Pets</a>
+  </header>
+
+  <section id="pets" class="pets-section">
+    <h2>Available Pets</h2>
+    <div id="pet-list" class="pet-list">
+      <!-- Pets will be loaded dynamically -->
+    </div>
+  </section>
+
+  <section id="adoption-form" class="form-section">
+    <h2>Adoption Application</h2>
+    <form id="form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="text" id="petName" placeholder="Pet You Wish to Adopt" required>
+      <textarea id="message" rows="4" placeholder="Why do you want to adopt?" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 PetAdoption. All rights reserved.</p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>
